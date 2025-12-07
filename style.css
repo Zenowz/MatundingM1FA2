@@ -199,7 +199,7 @@ header {
   margin-bottom: 1.5rem;
 }
 
-/* HERO RIGHT SIDE CARD */
+/* HERO CARD */
 .hero-card {
   background: #1b2539;
   padding: 1.5rem;
@@ -271,7 +271,7 @@ header {
 .features-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2.4rem; /* Medium spacing */
+  gap: 2.4rem;
 }
 
 .feature-card {
@@ -282,24 +282,26 @@ header {
   border: 1px solid #eee;
 }
 
-/* ========= VISUAL SECTION ========= */
+/* ========= VISUAL SECTION (SPACING FIX APPLIED) ========= */
 .visual-section {
   background: white;
   color: #111;
-  padding: 3.2rem 0;
+  padding: 3rem 0;
+  margin-top: 3rem; /* ADDED — creates space below features */
 }
 
 .visual-grid {
   display: grid;
   grid-template-columns: 1.1fr 1fr;
-  gap: 3.5rem; /* MEDIUM spacing fix */
-  margin-top: 1.8rem;
+  gap: 3.5rem; /* Medium spacing */
+  margin-top: 1rem;
 }
 
 .visual-box {
   background: #ffe7d3;
   padding: 1.5rem;
   border-radius: 16px;
+  margin-top: 2rem;     /* ADDED — spacing from features */
   margin-bottom: 1.5rem;
 }
 
